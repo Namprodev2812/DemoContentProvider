@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#FFFFFF"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_phone_sms_user"
+        android:text="Phone_user"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#D84C23"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/textview_phone_sms_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_time_sms_user"
+        android:text="Time_User"
+        />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#0615E7"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/textview_time_sms_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_body_sms_user"
+        android:text="Body_sms"
+        />
+</RelativeLayout>
